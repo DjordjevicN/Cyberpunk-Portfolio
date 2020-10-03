@@ -50,7 +50,6 @@ function About() {
             </a>
             <p className="linkNameSpan">- Node.js Framework</p>
           </div>
-          <h3 className="mainStackTitle">I also use:</h3>
           <div className="stackItem">
             <img
               className="stackLinkImage"
@@ -61,6 +60,29 @@ function About() {
               <p className="linkName">MongoDB</p>
             </a>
             <p className="linkNameSpan">- NoSQL Database</p>
+          </div>
+          <h3 className="mainStackTitle">I also use:</h3>
+          <div className="stackItem">
+            <img
+              className="stackLinkImage"
+              src="./images/icons/figma.png"
+              alt="react"
+            />
+            <a href="https://www.mongodb.com/" target="_blank">
+              <p className="linkName">Figma</p>
+            </a>
+            <p className="linkNameSpan">- Interface Design</p>
+          </div>
+          <div className="stackItem">
+            <img
+              className="stackLinkImage"
+              src="./images/icons/XD.png"
+              alt="react"
+            />
+            <a href="https://www.mongodb.com/" target="_blank">
+              <p className="linkName">Adobe XD</p>
+            </a>
+            <p className="linkNameSpan">- Interface Design</p>
           </div>
         </div>
       </div>
