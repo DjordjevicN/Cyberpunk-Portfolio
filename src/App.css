@@ -124,20 +124,24 @@ body::after {
   font-size: 25px;
   color: white;
 }
-.stackItem {
-  display: flex;
-  align-items: center;
-  font-size: 30px;
-}
+
 .mainStack {
   margin: 100px 0;
 }
 .mainStackTitle {
   font-size: 30px;
   text-align: left;
+  margin-top: 100px;
   margin-bottom: 50px;
   margin-left: 100px;
   color: rgb(177, 177, 177);
+}
+.stackItem {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 10px;
 }
 .stackLinkImage {
   width: 40px;
