@@ -3,14 +3,14 @@ import React from "react";
 function Footer() {
   return (
     <div data-aos="fade-right" data-aos-offset="300" className="footerWrapper">
-      <div className="content-card aboutMe">
+      <div className="content-card footer">
         <h6 className="footerTitle">Lets Talk</h6>
         <div className="contact">
           <img className="footerImage" src="./images/phone.gif" alt="ww" />
           <div className="contactInfo">
             <div
               data-aos="fade-right"
-              data-aos-offset="200"
+              data-aos-offset="10"
               className="stackItem"
             >
               <img
@@ -25,7 +25,7 @@ function Footer() {
             </div>
             <div
               data-aos="fade-right"
-              data-aos-offset="200"
+              data-aos-offset="10"
               className="stackItem"
             >
               <img

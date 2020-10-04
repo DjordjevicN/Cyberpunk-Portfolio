@@ -200,3 +200,76 @@ body::after {
 .contactInfo span {
   color: var(--y-selected-text);
 }
+.footer {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 400px) {
+  .headerText {
+    margin-left: 30px;
+  }
+  .headerText h1 {
+    font-size: 30px;
+    line-height: 25px;
+  }
+  .headerText h2 {
+    line-height: 25px;
+  }
+  .spacer {
+    padding: 50px;
+  }
+  /* PROJECTS  */
+
+  .projectsWrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .title {
+    text-align: center;
+  }
+  .title h1 {
+    font-size: 40px;
+  }
+  .description p {
+    font-size: 20px;
+  }
+  .aboutMe {
+    padding-bottom: 5px;
+  }
+  .aboutMe h1 {
+    font-size: 40px;
+  }
+  .aboutMeDescription p {
+    font-size: 15px;
+  }
+  .mainStackTitle {
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .stackItem {
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  .stackLinkImage {
+    width: 25px;
+  }
+  .mainStack {
+    margin-bottom: 20px;
+  }
+  .footer {
+    padding-bottom: 100px;
+  }
+  .footerTitle {
+    font-size: 30px;
+  }
+  .footerImage {
+    width: 100px;
+  }
+  .contactInfo {
+    margin-left: 0px;
+  }
+}
