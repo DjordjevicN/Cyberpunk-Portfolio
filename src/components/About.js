@@ -22,7 +22,7 @@ function About() {
               src="./images/icons/react.png"
               alt="react"
             />
-            <a href="https://reactjs.org/" target="_blank">
+            <a href="https://reactjs.org/">
               <p className="linkName">React</p>
             </a>
             <p className="linkNameSpan">- UI Library</p>
@@ -34,7 +34,7 @@ function About() {
               src="./images/icons/nodejs.png"
               alt="react"
             />
-            <a href="https://nodejs.org/en/" target="_blank">
+            <a href="https://nodejs.org/en/">
               <p className="linkName">Node JS</p>
             </a>
             <p className="linkNameSpan">- JavaScript Runtime</p>
@@ -45,7 +45,7 @@ function About() {
               src="./images/icons/express.png"
               alt="react"
             />
-            <a href="https://expressjs.com/" target="_blank">
+            <a href="https://expressjs.com/">
               <p className="linkName">Express</p>
             </a>
             <p className="linkNameSpan">- Node.js Framework</p>
@@ -56,19 +56,19 @@ function About() {
               src="./images/icons/mongoDB.png"
               alt="react"
             />
-            <a href="https://www.mongodb.com/" target="_blank">
+            <a href="https://www.mongodb.com/">
               <p className="linkName">MongoDB</p>
             </a>
             <p className="linkNameSpan">- NoSQL Database</p>
           </div>
-          <h3 className="mainStackTitle">I also use:</h3>
+          <h3 className="mainStackTitle">Tools:</h3>
           <div className="stackItem">
             <img
               className="stackLinkImage"
               src="./images/icons/figma.png"
               alt="react"
             />
-            <a href="https://www.mongodb.com/" target="_blank">
+            <a href="https://www.mongodb.com/">
               <p className="linkName">Figma</p>
             </a>
             <p className="linkNameSpan">- Interface Design</p>
@@ -79,7 +79,7 @@ function About() {
               src="./images/icons/XD.png"
               alt="react"
             />
-            <a href="https://www.mongodb.com/" target="_blank">
+            <a href="https://www.mongodb.com/">
               <p className="linkName">Adobe XD</p>
             </a>
             <p className="linkNameSpan">- Interface Design</p>

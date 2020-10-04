@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap");
 :root {
   --bg-color: #272b23;
   --g-selected-text: #14fe17;
@@ -17,7 +18,8 @@ a {
   text-decoration: none;
 }
 body {
-  font-family: "Teko", sans-serif;
+  /* font-family: "Teko", sans-serif; */
+  font-family: "Pragati Narrow", sans-serif;
   background-color: var(--bg-color);
   color: var(--y-non-selected-text);
 }
