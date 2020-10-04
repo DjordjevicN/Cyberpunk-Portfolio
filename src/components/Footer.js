@@ -2,19 +2,12 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footerWrapper">
-      <div className="AboutWrapper">
-        <div className="content-card aboutMe">
-          <h1>Footer</h1>
-          <div className="aboutMeDescription">
-            <p>
-              I am a front end developer with a passion for programming as well
-              as a creative eye and a pragmatic mind. I love learning about new
-              things and implementing them into my work. Let me tell you a
-              little bit about myself!
-            </p>
-          </div>
-        </div>
+    <div data-aos="fade-right" data-aos-offset="1" className="footerWrapper">
+      <div className="content-card aboutMe">
+        <h6 className="footerTitle">Contact</h6>
+        <p>
+          Email: <span>nikola.dj.87@gmail.com</span>
+        </p>
       </div>
     </div>
   );

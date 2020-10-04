@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="AboutWrapper">
+    <div data-aos="zoom-in-up" data-aos-offset="300" className="AboutWrapper">
       <div className="content-card aboutMe">
         <h1>About me</h1>
         <div className="aboutMeDescription">
@@ -16,7 +16,11 @@ function About() {
         <div className="mainStack">
           <h3 className="mainStackTitle">Preferred web stack:</h3>
           {/* *******  */}
-          <div className="stackItem">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            className="stackItem"
+          >
             <img
               className="stackLinkImage"
               src="./images/icons/react.png"
@@ -28,7 +32,11 @@ function About() {
             <p className="linkNameSpan">- UI Library</p>
           </div>
           {/* ********** */}
-          <div className="stackItem">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            className="stackItem"
+          >
             <img
               className="stackLinkImage"
               src="./images/icons/nodejs.png"
@@ -39,7 +47,11 @@ function About() {
             </a>
             <p className="linkNameSpan">- JavaScript Runtime</p>
           </div>
-          <div className="stackItem">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            className="stackItem"
+          >
             <img
               className="stackLinkImage"
               src="./images/icons/express.png"
@@ -50,7 +62,11 @@ function About() {
             </a>
             <p className="linkNameSpan">- Node.js Framework</p>
           </div>
-          <div className="stackItem">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            className="stackItem"
+          >
             <img
               className="stackLinkImage"
               src="./images/icons/mongoDB.png"
@@ -62,27 +78,50 @@ function About() {
             <p className="linkNameSpan">- NoSQL Database</p>
           </div>
           <h3 className="mainStackTitle">Tools:</h3>
-          <div className="stackItem">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            className="stackItem"
+          >
             <img
               className="stackLinkImage"
               src="./images/icons/figma.png"
               alt="react"
             />
-            <a href="https://www.mongodb.com/">
+            <a href="https://www.figma.com/">
               <p className="linkName">Figma</p>
             </a>
             <p className="linkNameSpan">- Interface Design</p>
           </div>
-          <div className="stackItem">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            className="stackItem"
+          >
             <img
               className="stackLinkImage"
               src="./images/icons/XD.png"
               alt="react"
             />
-            <a href="https://www.mongodb.com/">
+            <a href="https://www.adobe.com/">
               <p className="linkName">Adobe XD</p>
             </a>
             <p className="linkNameSpan">- Interface Design</p>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            className="stackItem"
+          >
+            <img
+              className="stackLinkImage"
+              src="./images/icons/trello.png"
+              alt="react"
+            />
+            <a href="https://trello.com/en">
+              <p className="linkName">Trello</p>
+            </a>
+            <p className="linkNameSpan">- Todo / Management</p>
           </div>
         </div>
       </div>

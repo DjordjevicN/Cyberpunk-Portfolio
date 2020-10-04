@@ -42,14 +42,14 @@ body::after {
   opacity: 0.4;
 }
 .App {
-  /* text-align: center; */
   background-image: url("/images/bg.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: 100vh;
-  overflow-x: hidden;
+  /* height: 100vh; */
+  height: 100%;
+  /* overflow-x: hidden; */
 }
 .headerWrapper {
   text-align: center;
@@ -102,6 +102,9 @@ body::after {
   -moz-box-shadow: inset 200px 21px 194px 20px #c012b73b;
   box-shadow: inset 200px 21px 194px 20px #12c0953b;
 }
+.buildWidth p {
+  color: white;
+}
 .title h1 {
   font-size: 4vw;
 }
@@ -117,6 +120,7 @@ body::after {
   width: 70%;
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 100px;
 }
 .aboutMe h1 {
   font-size: 60px;
@@ -125,6 +129,10 @@ body::after {
 .aboutMeDescription p {
   font-size: 25px;
   color: white;
+}
+.aboutMeDescription p {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .mainStack {
@@ -154,4 +162,24 @@ body::after {
 }
 .linkNameSpan {
   color: rgb(177, 177, 177);
+}
+.linkToProject {
+  color: white;
+  padding: 5px 20px;
+  display: inline-block;
+  margin: 50px 0;
+  border: 1px solid var(--b-selected-text);
+  border-radius: 8px;
+}
+.linkToProject:hover {
+  background-color: rgba(0, 183, 255, 0.281);
+}
+.aboutMeDescription {
+  font-size: 522vw;
+}
+.footerWrapper {
+  margin-top: 200px;
+}
+.footerTitle {
+  font-size: 30px;
 }
