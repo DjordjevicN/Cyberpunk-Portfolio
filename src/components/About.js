@@ -7,10 +7,9 @@ function About() {
         <h1>About me</h1>
         <div className="aboutMeDescription">
           <p>
-            I am a front end developer with a passion for programming as well as
-            a creative eye and a pragmatic mind. I love learning about new
-            things and implementing them into my work. Let me tell you a little
-            bit about myself!
+            I am a web developer with a passion for programming as well as a
+            creative eye and a pragmatic mind. I love learning about new things
+            and implementing them into my work.
           </p>
         </div>
         <div className="mainStack">

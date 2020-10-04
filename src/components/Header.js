@@ -11,21 +11,31 @@ function Header() {
         className="content-card header-bg"
       >
         <div className="spacer">
-          <motion.h1
-            animate={{
-              opacity: [0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1],
-            }}
-            transition={{ duration: 0.6, delay: 1 }}
-          >
-            Hi! My name is <span>Nikola</span>
-          </motion.h1>
-          <motion.h2
-            animate={{ opacity: [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1] }}
-            transition={{ duration: 0.8, delay: 1.3 }}
-          >
-            I am a <span>Web Developer</span>
-          </motion.h2>
-          <p></p>
+          <div className="headerText">
+            <motion.h1
+              animate={{
+                opacity: [0, 1, 0, 0, 1, 0, 0, 1, 0, 1],
+              }}
+              transition={{ duration: 0.6, delay: 1 }}
+            >
+              HI !
+            </motion.h1>
+            <motion.h1
+              animate={{
+                opacity: [0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1],
+              }}
+              transition={{ duration: 0.6, delay: 1 }}
+            >
+              My name is <span>Nikola</span>
+            </motion.h1>
+            <motion.h2
+              animate={{ opacity: [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1] }}
+              transition={{ duration: 0.8, delay: 1.3 }}
+            >
+              I am a <span>Web Developer</span>
+            </motion.h2>
+            <p></p>
+          </div>
         </div>
       </motion.div>
     </div>
