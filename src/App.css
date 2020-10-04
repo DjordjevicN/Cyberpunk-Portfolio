@@ -169,8 +169,8 @@ body::after {
   color: white;
   padding: 5px 20px;
   display: inline-block;
-  margin: 50px 0;
-  border: 1px solid var(--b-selected-text);
+  margin: 50px 0px;
+  /* border: 1px solid var(--b-selected-text); */
   border-radius: 8px;
 }
 .linkToProject:hover {

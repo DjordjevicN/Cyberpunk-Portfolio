@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Header() {
   return (
-    <div className="headerWrapper">
+    <div className="headerWrapper" data-tilt>
       <motion.div
         initial={{ y: 200, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
