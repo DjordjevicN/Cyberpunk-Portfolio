@@ -33,7 +33,7 @@ function Footer() {
                 src="./images/icons/linkedIn.png"
                 alt="react"
               />
-              <a href="https://nodejs.org/en/">
+              <a href="https://www.linkedin.com/in/nikola-djordjevic-503066193/">
                 <p className="linkName">LinkedIn</p>
               </a>
               {/* <p className="linkNameSpan">- nikola.dj.87@gmail.com</p> */}
