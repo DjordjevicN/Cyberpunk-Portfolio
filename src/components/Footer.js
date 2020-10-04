@@ -40,6 +40,25 @@ function Footer() {
             </div>
           </div>
         </div>
+        <div className="thisWebsite">
+          <p>This website is built with :</p>
+          <img
+            className="stackLinkImage"
+            src="./images/icons/js.png"
+            alt="react"
+          />
+          <img
+            className="stackLinkImage"
+            src="./images/icons/react.png"
+            alt="react"
+          />
+          <img
+            className="stackLinkImage"
+            src="./images/icons/framer.png"
+            alt="react"
+          />
+          <p>by: Nikola Djordjevic</p>
+        </div>
       </div>
     </div>
   );
